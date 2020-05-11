@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ben Nyakaz Portifolio</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>BEN NYAKAZ <br /><small>Web Developer</small></h1>
+      </div>
+      <div>
+        <span class="open-nav">
+          <a href="#" id="open-nav-link">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#eaf8bf" stroke-width="5" />
+              <path d="M0,14 30,14" stroke="#eaf8bf" stroke-width="5" />
+              <path d="M0,23 30,23" stroke="#eaf8bf" stroke-width="5" />
+            </svg>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <ul>
+        <li id="home-link">
+          <i class="fa fa-home "></i><a href="index.html">Home</a>
+        </li>
+        <li id="projects-link">
+          <i class="fa fa-laptop "></i><a href="projects.html">Projects</a>
+        </li>
+        <li id="about-link">
+          <i class="fa fa-user-circle "></i><a href="./about.html">About</a>
+        </li>
+        <li id="contact-link">
+          <i class="fa fa-phone "></i><a href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="social">
+        <a
+          href="https://www.facebook.com/takunda.takunda.3"
+          class="fa fa-facebook"
+        ></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a
+          href="https://www.github.com/Benjamin-Nyakambangwe"
+          class="fa fa-github"
+        ></a>
+      </div>
+
+      <p><a href="#">bennyakaz@me.com</a></p>
+    </nav>
+
+    <main class="data-router-wrapper">
+      <section data-router-view="home" class="home">
+        <div class="home-content">
+          <h1>Hello World!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="home-buttons">
+            <a href="./contact.html" class="btn"
+              >HIRE ME <i class="fas fa-chevron-right"></i
+            ></a>
+            <a href="./projects.html" class="btn"
+              >PORTIFOLIO <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
