@@ -144,10 +144,13 @@ section .home-content h1 {
 }
 
 section .home-content p {
-  font-size: 22px;
+  font-size: 38px;
+  font-weight: bolder;
   font-family: 'Raleway', 'sans-serif';
   color: #eaf8bf;
   margin: 125px;
+  text-align: center;
+  line-height: 1.8;
 }
 
 section .home-content .btn {
@@ -200,12 +203,19 @@ section .about-content h1 {
 }
 
 section .about-content p {
-  font-size: 18px;
+  font-size: 22px;
   font-family: 'Raleway', 'sans-serif';
   color: #eaf8bf;
   margin-top: 50px;
-  margin-left: 20px;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+  line-height: 1.4;
   float: left;
+}
+
+section .about-content p > span {
+  color: #ffbf21;
 }
 
 section .about-div img {
