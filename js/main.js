@@ -118,10 +118,10 @@ function restoreFormBtnIcon() {
 function openNav() {
   console.log('Hamburger Woking');
 
-  if ((nav.style.display = 'none')) {
-    nav.style.display = 'block';
-  } else {
+  if (nav.style.display != 'none') {
     nav.style.display = 'none';
+  } else {
+    nav.style.display = 'block';
     console.log('else working');
   }
 }
