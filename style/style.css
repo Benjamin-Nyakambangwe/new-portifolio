@@ -1,1009 +1,1025 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
-  overflow: hidden;
+ height: 100vh;
+ overflow: hidden;
 }
 
 header {
-  width: 100%;
-  height: 15vh;
-  background: #001d4a;
+ width: 100%;
+ height: 15vh;
+ background: #001d4a;
 }
 
 header .open-nav {
-  margin: 15px;
-  padding: 15px;
-  display: none;
+ margin: 15px;
+ padding: 15px;
+ display: none;
 }
 
 header h1 {
-  float: right;
-  font-family: 'Raleway', 'sans-serif';
-  font-size: 30px;
-  font-weight: bolder;
-  margin: 5px 10px 0px 10px;
-  padding: 0px 15px 0px 15px;
-  float: right;
-  color: #eaf8bf;
+ float: right;
+ font-family: "Raleway", "sans-serif";
+ font-size: 30px;
+ font-weight: bolder;
+ margin: 5px 10px 0px 10px;
+ padding: 0px 15px 0px 15px;
+ float: right;
+ color: #eaf8bf;
 }
 
 header h1 small {
-  margin-bottom: 10px;
-  border-bottom: solid 3px #ffbf21;
-  text-align: center;
+ margin-bottom: 10px;
+ border-bottom: solid 3px #ffbf21;
+ text-align: center;
 }
 
 nav {
-  float: left;
-  width: 10%;
-  height: 85vh;
-  background: #001d4a;
+ float: left;
+ width: 10%;
+ height: 85vh;
+ background: #001d4a;
 }
 
 nav ul {
-  list-style: none;
-  margin-top: 50px;
+ list-style: none;
+ margin-top: 50px;
 }
 
 nav li {
-  margin: 20px 0;
-  padding: 10px 5px;
+ margin: 20px 0;
+ padding: 10px 5px;
 }
 
 nav li i {
-  color: #ffbf21;
-  display: none;
+ color: #ffbf21;
+ display: none;
 }
 
 nav li a {
-  text-decoration: none;
-  color: #eaf8bf;
-  margin: 5px 5px;
-  padding: 15px 0;
-  font-family: 'Raleway', 'sans-serif';
-  font-size: 18px;
+ text-decoration: none;
+ color: #eaf8bf;
+ margin: 5px 5px;
+ padding: 15px 0;
+ font-family: "Raleway", "sans-serif";
+ font-size: 18px;
 }
 
 .social {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 4px;
-  margin: 100px 5px 25px 5px;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 4px;
+ margin: 100px 5px 25px 5px;
+}
+
+.contact-social {
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-gap: 4px;
+ margin: 150px 5px 25px 5px;
+}
+
+.contact-social .fa {
+ margin: auto;
+ padding: 10px;
+ font-size: 35px;
+ text-align: center;
+ text-decoration: none;
 }
 
 .social .fa {
-  margin: auto;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
+ margin: auto;
+ padding: 10px;
+ font-size: 20px;
+ text-align: center;
+ text-decoration: none;
 }
 
 .social .fa:hover {
-  color: #ffbf21;
+ color: #ffbf21;
 }
 
 .fa-facebook {
-  background: #3b5998;
-  color: #eaf8bf;
-  border: 2px solid #ffbf21;
+ background: #3b5998;
+ color: #eaf8bf;
+ border: 2px solid #ffbf21;
 }
 
 .fa-twitter {
-  background: #55acee;
-  color: #eaf8bf;
-  border: 2px solid #ffbf21;
+ background: #55acee;
+ color: #eaf8bf;
+ border: 2px solid #ffbf21;
 }
 .fa-linkedin {
-  background: #0e76a8;
-  color: #eaf8bf;
-  border: 2px solid #ffbf21;
+ background: #0e76a8;
+ color: #eaf8bf;
+ border: 2px solid #ffbf21;
 }
 
 .fa-github {
-  background: #000;
-  color: #eaf8bf;
-  border: 2px solid #ffbf21;
+ background: #000;
+ color: #eaf8bf;
+ border: 2px solid #ffbf21;
 }
 
 nav p a:hover {
-  border-bottom: 3px solid #ffbf21;
-  color: #eaf8bf;
+ border-bottom: 3px solid #ffbf21;
+ color: #eaf8bf;
 }
 
 nav p a {
-  margin: 95px 5px 10px 5px;
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: bold;
-  color: #ffbf21;
-  font-family: 'Raleway', 'sans-serif';
+ margin: 95px 5px 10px 5px;
+ text-decoration: none;
+ font-size: 13px;
+ font-weight: bold;
+ color: #ffbf21;
+ font-family: "Raleway", "sans-serif";
 }
 
 section .home-content {
-  float: right;
-  width: 90%;
-  height: 85vh;
-  background: url('../img/img-op.png') no-repeat center center/cover;
-  overflow: hidden;
-  margin-bottom: none;
+ float: right;
+ width: 90%;
+ height: 85vh;
+ background: url("../img/img-op.png") no-repeat center center/cover;
+ overflow: hidden;
+ margin-bottom: none;
 }
 
 section .home-content h1 {
-  font-weight: bold;
-  font-size: 36px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin-left: 25px;
-  margin-top: 25px;
+ font-weight: bold;
+ font-size: 36px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin-left: 25px;
+ margin-top: 25px;
 }
 
 section .home-content p {
-  font-size: 38px;
-  font-weight: bolder;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin: 125px;
-  text-align: center;
-  line-height: 1.8;
+ font-size: 38px;
+ font-weight: bolder;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin: 125px;
+ text-align: center;
+ line-height: 1.8;
 }
 
 section .home-content .btn {
-  text-decoration: none;
-  font-size: 24px;
-  color: #eaf8bf;
-  font-family: 'Raleway', 'sans-serif';
-  background: #001d4a;
-  padding: 10px;
-  margin: 5px;
+ text-decoration: none;
+ font-size: 24px;
+ color: #eaf8bf;
+ font-family: "Raleway", "sans-serif";
+ background: #001d4a;
+ padding: 10px;
+ margin: 5px;
 }
 
 section .home-content .btn:hover {
-  background: #27476e;
+ background: #27476e;
 }
 
 .home-buttons .fas {
-  color: #ffbf21;
+ color: #ffbf21;
 }
 
 .home-buttons {
-  margin-left: 450px;
-  margin-top: 100px;
+ margin-left: 450px;
+ margin-top: 100px;
 }
 
 /*ABOUT PAGE*/
 section .fade {
-  float: right;
-  width: 90%;
-  height: 85vh;
-  position: absolute;
-  background: #001d4a;
-  z-index: 1;
+ float: right;
+ width: 90%;
+ height: 85vh;
+ position: absolute;
+ background: #001d4a;
+ z-index: 1;
 }
 section .about-content {
-  float: right;
-  width: 90%;
-  height: 85vh;
-  background: url('../img/img-op.png') no-repeat center center/cover;
-  position: relative;
+ float: right;
+ width: 90%;
+ height: 85vh;
+ background: url("../img/img-op.png") no-repeat center center/cover;
+ position: relative;
 }
 
 section .about-content h1 {
-  font-weight: bold;
-  font-size: 36px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin-left: 25px;
-  margin-top: 25px;
+ font-weight: bold;
+ font-size: 36px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin-left: 25px;
+ margin-top: 25px;
 }
 
 section .about-content p {
-  font-size: 22px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin-top: 50px;
-  margin-left: 75px;
-  margin-right: 75px;
-  text-align: center;
-  line-height: 1.4;
-  float: left;
+ font-size: 22px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin-top: 50px;
+ margin-left: 75px;
+ margin-right: 75px;
+ text-align: center;
+ line-height: 1.4;
+ float: left;
 }
 
 section .about-content p > span {
-  color: #ffbf21;
+ color: #ffbf21;
 }
 
 section .about-div img {
-  width: 300px;
-  height: 65vh;
+ width: 300px;
+ height: 65vh;
 }
 
 section .about-div {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
 }
 
 section .about-div .skills {
-  list-style: none;
-  padding: 15px;
-  margin: 10px;
-  color: #eaf8bf;
-  font-family: 'Raleway', 'sans-serif';
+ list-style: none;
+ padding: 15px;
+ margin: 10px;
+ color: #eaf8bf;
+ font-family: "Raleway", "sans-serif";
 }
 section .about-div .skills h1 {
-  font-weight: bold;
-  font-size: 36px;
+ font-weight: bold;
+ font-size: 36px;
 
-  color: #eaf8bf;
-  margin-left: 25px;
-  margin-top: 5px;
-  margin-bottom: 45px;
-  text-transform: uppercase;
+ color: #eaf8bf;
+ margin-left: 25px;
+ margin-top: 5px;
+ margin-bottom: 45px;
+ text-transform: uppercase;
 }
 
 section .about-div .skills .skills-list {
-  background: #27476e;
-  margin: 10px;
-  padding: 10px;
+ background: #27476e;
+ margin: 10px;
+ padding: 10px;
 }
 
 section .about-div .skills .bar {
-  padding: 5px;
-  margin: 10px;
-  background: #3b5998;
-  display: block;
-  height: 3px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
-  overflow: hidden;
+ padding: 5px;
+ margin: 10px;
+ background: #3b5998;
+ display: block;
+ height: 3px;
+ border: 1px solid rgba(0, 0, 0, 0.3);
+ border-radius: 3px;
+ overflow: hidden;
 }
 
 section .about-div .skills .bar span {
-  height: 3px;
-  float: left;
-  background: #ffbf21;
+ height: 3px;
+ float: left;
+ background: #ffbf21;
 }
 
 section .about-div .skills .html {
-  width: 95%;
-  animation: html 2s;
+ width: 95%;
+ animation: html 2s;
 }
 
 section .about-div .skills .css {
-  width: 90%;
-  animation: css 2s;
+ width: 90%;
+ animation: css 2s;
 }
 
 section .about-div .skills .react {
-  width: 70%;
-  animation: react 2s;
+ width: 70%;
+ animation: react 2s;
 }
 
 section .about-div .skills .javascript {
-  width: 85%;
-  animation: javascript 2s;
+ width: 85%;
+ animation: javascript 2s;
 }
 
 section .about-div .skills .python {
-  width: 80%;
-  animation: python 2s;
+ width: 80%;
+ animation: python 2s;
 }
 
 section .about-content .btn {
-  text-decoration: none;
-  font-size: 20px;
-  color: #eaf8bf;
-  font-family: 'Raleway', 'sans-serif';
-  background: #001d4a;
-  padding: 8px;
-  margin: 5px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #eaf8bf;
+ font-family: "Raleway", "sans-serif";
+ background: #001d4a;
+ padding: 8px;
+ margin: 5px;
 }
 
 section .about-content .btn:hover {
-  background: #27476e;
+ background: #27476e;
 }
 
 .about-buttons .fas {
-  color: #ffbf21;
+ color: #ffbf21;
 }
 
 section .about-buttons {
-  margin-left: 250px;
-  margin-top: 420px;
+ margin-left: 250px;
+ margin-top: 420px;
 }
 
 /* CONTACT STYLING*/
 section .contact-content {
-  float: right;
-  width: 90%;
-  height: 85vh;
-  background: url('../img/img-op.png') no-repeat center center/cover;
-  position: relative;
-  overflow: hidden;
+ float: right;
+ width: 90%;
+ height: 85vh;
+ background: url("../img/img-op.png") no-repeat center center/cover;
+ position: relative;
+ overflow: hidden;
 }
 
 section .contact-content h1 {
-  font-weight: bold;
-  font-size: 36px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin-left: 25px;
-  margin-top: 25px;
+ font-weight: bold;
+ font-size: 36px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin-left: 25px;
+ margin-top: 25px;
 }
 
 section .contact-content p {
-  font-size: 18px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin-top: 50px;
-  margin-left: 20px;
-  float: left;
+ font-size: 18px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin-top: 50px;
+ margin-left: 20px;
+ float: left;
 }
 
 section .contact-div img {
-  width: 300px;
-  height: 65vh;
+ width: 300px;
+ height: 65vh;
 }
 
 section .contact-div {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
 }
 section .contact-content .btn {
-  text-decoration: none;
-  font-size: 20px;
-  color: #eaf8bf;
-  font-family: 'Raleway', 'sans-serif';
-  background: #001d4a;
-  padding: 8px;
-  margin: 5px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #eaf8bf;
+ font-family: "Raleway", "sans-serif";
+ background: #001d4a;
+ padding: 8px;
+ margin: 5px;
 }
 
 section .contact-content .btn:hover {
-  background: #27476e;
-  color: #001d4a;
-  font-weight: bolder;
+ background: #27476e;
+ color: #001d4a;
+ font-weight: bolder;
+ border: #001d4a 2px solid;
 }
 
 .contact-buttons .fas {
-  color: #ffbf21;
+ color: #ffbf21;
 }
 
 section .contact-buttons {
-  margin-left: 250px;
-  margin-top: 420px;
+ margin-left: 250px;
+ margin-top: 420px;
 }
 
 section .contact-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
 }
 
 section .contact-content form {
-  width: 650px;
-  height: 60vh;
-  margin: 50px 20px 0px 30px;
-  background: #27476e;
+ width: 650px;
+ height: 60vh;
+ margin: 50px 20px 0px 30px;
+ background: #27476e;
 }
 
 section .contact-content form .top-form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 10px;
-  padding-right: 10px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding-left: 10px;
+ padding-right: 10px;
 }
 
 section .contact-content .textbox {
-  width: 100%;
-  overflow: hidden;
-  font-size: 20px;
-  padding: 5px 0;
-  margin: 15px 0 0 0;
-  border-bottom: 2px solid #001d4a;
+ width: 100%;
+ overflow: hidden;
+ font-size: 20px;
+ padding: 5px 0;
+ margin: 15px 0 0 0;
+ border-bottom: 2px solid #001d4a;
 }
 
 section .contact-content .textbox i {
-  width: 26px;
-  float: left;
-  text-align: center;
-  color: #ffbf21;
+ width: 26px;
+ float: left;
+ text-align: center;
+ color: #ffbf21;
 }
 
 section .contact-content .textbox input {
-  border: none;
-  outline: none;
-  background: none;
-  color: #eaf8bf;
-  font-family: 'Raleway', 'sans-serif';
-  font-size: 18px;
-  width: 80%;
-  float: left;
-  margin: 0 10px;
+ border: none;
+ outline: none;
+ background: none;
+ color: #eaf8bf;
+ font-family: "Raleway", "sans-serif";
+ font-size: 18px;
+ width: 80%;
+ float: left;
+ margin: 0 10px;
 }
 
 section .contact-content .select-option {
-  position: absolute;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border-bottom: 2px solid #001d4a;
-  margin-top: 10px;
+ position: absolute;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ border-bottom: 2px solid #001d4a;
+ margin-top: 10px;
 }
 
 section .contact-content .select-option p {
-  margin-top: 13px;
-  margin-left: 2px;
-  padding-left: 10px;
+ margin-top: 13px;
+ margin-left: 2px;
+ padding-left: 10px;
 }
 
 section .contact-content .select-option i:first:child {
-  margin-left: 8px;
+ margin-left: 8px;
 }
 
 section .contact-content .select-option i {
-  margin-top: 20px;
-  margin-left: 5px;
-  color: #ffbf21;
+ margin-top: 20px;
+ margin-left: 5px;
+ color: #ffbf21;
 }
 
 section .contact-content .select-option select {
-  background: #27476e;
-  color: #eaf8bf;
-  padding: 10px;
-  width: 240px;
-  height: 50px;
-  border: none;
-  font-size: 20px;
-  outline: none;
-  margin-left: 80px;
+ background: #27476e;
+ color: #eaf8bf;
+ padding: 10px;
+ width: 240px;
+ height: 50px;
+ border: none;
+ font-size: 20px;
+ outline: none;
+ margin-left: 80px;
 }
 
 .select-option:before {
-  content: '\f358';
-  font-family: 'Font Awesome 5 Free';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  color: #ffbf21;
-  font-size: 28px;
-  background: #001d4a;
-  pointer-events: none;
+ content: "\f358";
+ font-family: "Font Awesome 5 Free";
+ position: absolute;
+ top: 0;
+ right: 0;
+ width: 50px;
+ height: 50px;
+ text-align: center;
+ line-height: 50px;
+ color: #ffbf21;
+ font-size: 28px;
+ background: #001d4a;
+ pointer-events: none;
 }
 
 .select-option:hover:before {
-  background: #0472ca;
+ background: #0472ca;
 }
 
 form .slide {
-  margin-top: 100px;
+ margin-top: 100px;
 }
 
 form .slide p {
-  margin-left: 3px;
-  margin-top: 3px;
-  margin-right: 5px;
+ margin-left: 3px;
+ margin-top: 3px;
+ margin-right: 5px;
 }
 
 form .slide:last-child {
-  margin-top: 500px;
+ margin-top: 500px;
 }
 
 form .slide #rangeValue {
-  position: absolute;
-  left: 600px;
-  padding: 2px;
-  width: 70px;
-  height: 50px;
-  line-height: 50px;
-  color: #ffbf21;
-  font-size: 28px;
-  box-sizing: border-box;
-  background: #001d4a;
-  text-align: center;
-  font-family: 'Raleway', 'sans-serif';
+ position: absolute;
+ left: 600px;
+ padding: 2px;
+ width: 70px;
+ height: 50px;
+ line-height: 50px;
+ color: #ffbf21;
+ font-size: 28px;
+ box-sizing: border-box;
+ background: #001d4a;
+ text-align: center;
+ font-family: "Raleway", "sans-serif";
 }
 
 /*form .slide #rangeValue:before {
-	content:'';
-	position:absolute;
-	top:50%;
-	transform:translateY(-50%) rotate(45deg);
-	left: -5;
-	width: 10px;
-	height:10px;
-	background:#fff;
+  content:'';
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(45deg);
+  left: -5;
+  width: 10px;
+  height:10px;
+  background:#fff;
 }*/
 
 form .slide #range {
-  width: 400px;
-  height: 2px;
-  background: #001d4a;
-  -webkit-appearance: none;
-  outline: none;
-  border-radius: 2px;
+ width: 400px;
+ height: 2px;
+ background: #001d4a;
+ -webkit-appearance: none;
+ outline: none;
+ border-radius: 2px;
 }
 
 form .slide #range::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #ffbf21;
+ -webkit-appearance: none;
+ width: 20px;
+ height: 20px;
+ border-radius: 50%;
+ background: #ffbf21;
 }
 
 form .form-btn {
-  margin-top: 70px;
-  margin-left: 240px;
-  color: #ffbf21;
+ margin-top: 70px;
+ margin-left: 240px;
+ color: #ffbf21;
 }
 
 form .form-btn a {
-  color: #eaf8bf;
+ color: #eaf8bf;
 }
 
 form #form-btn-icon {
-  color: #eaf8bf;
+ color: #eaf8bf;
 }
 
 section .contact-details {
-  width: 350px;
-  height: 60vh;
-  margin: 50px 20px 0px 10px;
-  background: #001d4a;
+ width: 350px;
+ height: 60vh;
+ margin: 50px 20px 0px 10px;
+ background: #001d4a;
 }
 
 section .contact-details h1 {
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  text-align: center;
-  font-size: 28px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ text-align: center;
+ font-size: 28px;
 }
 
 section .contact-details h3 {
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  text-align: left;
-  font-size: 18px;
-  margin-left: 20px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ text-align: left;
+ font-size: 18px;
+ margin-left: 20px;
 }
 
 section .contact-h3 {
-  margin-top: 15px;
+ margin-top: 15px;
 }
 section .contact-details h2 {
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  text-align: center;
-  font-size: 24px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ text-align: center;
+ font-size: 24px;
 }
 
 section .contact-details p {
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  text-align: center;
-  font-size: 16px;
-  margin-top: 10px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ text-align: center;
+ font-size: 16px;
+ margin-top: 10px;
 }
 
 section .contact-p {
-  margin-top: 20px;
+ margin-top: 20px;
 }
 
 /*PROJECTS SECTION*/
 section .projects-content {
-  float: right;
-  width: 90%;
-  height: 85vh;
-  background: url('../img/img-op.png') no-repeat center center/cover;
-  overflow: hidden;
+ float: right;
+ width: 90%;
+ height: 85vh;
+ background: url("../img/img-op.png") no-repeat center center/cover;
+ overflow: hidden;
 }
 
 section .projects-content h1 {
-  font-weight: bold;
-  font-size: 36px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin-left: 25px;
-  margin-top: 25px;
+ font-weight: bold;
+ font-size: 36px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin-left: 25px;
+ margin-top: 25px;
 }
 
 section .projects-content p {
-  font-size: 22px;
-  font-family: 'Raleway', 'sans-serif';
-  color: #eaf8bf;
-  margin: 125px;
+ font-size: 22px;
+ font-family: "Raleway", "sans-serif";
+ color: #eaf8bf;
+ margin: 125px;
 }
 
 section .projects-content .btn {
-  text-decoration: none;
-  font-size: 24px;
-  color: #fff;
-  font-family: 'Raleway', 'sans-serif';
-  background: #001d4a;
-  padding: 10px;
-  margin: 5px;
+ text-decoration: none;
+ font-size: 24px;
+ color: #fff;
+ font-family: "Raleway", "sans-serif";
+ background: #001d4a;
+ padding: 10px;
+ margin: 5px;
 }
 
 section .projects-content .btn:hover {
-  background: #27476e;
+ background: #27476e;
 }
 
 section .projects-content .projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-  margin: 25px;
-  margin-left: 45px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-gap: 1em;
+ margin: 25px;
+ margin-left: 45px;
 }
 
 section .projects-content .projects .container {
-  position: relative;
-  width: 520px;
-  height: 250px;
-  display: inline-block;
-  overflow: hidden;
+ position: relative;
+ width: 520px;
+ height: 250px;
+ display: inline-block;
+ overflow: hidden;
 }
 
 section .projects-content .projects .container .image {
-  display: block;
+ display: block;
 }
 
 section .projects-content .projects .container .overlay {
-  position: absolute;
-  transition: all 0.7s ease;
-  opacity: 0;
-  background-color: #eee;
+ position: absolute;
+ transition: all 0.7s ease;
+ opacity: 0;
+ background-color: #eee;
 }
 
 section .projects-content .projects .container:hover .overlay-left {
-  opacity: 0.9;
+ opacity: 0.9;
 }
 
 section .projects-content .projects .container .overlay .text {
-  color: #fff;
-  font-family: 'Roboto', 'sans-serif';
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  text-align: center;
-  margin-left: 35px;
-  transform: translate(-15%, -15%);
+ color: #fff;
+ font-family: "Roboto", "sans-serif";
+ position: absolute;
+ top: 15%;
+ left: 10%;
+ text-align: center;
+ margin-left: 35px;
+ transform: translate(-15%, -15%);
 }
 
 section .projects-content .projects .container .overlay .text a {
-  color: #fff;
-  font-family: 'Roboto', 'sans-serif';
-  position: absolute;
-  top: 70%;
-  left: 40%;
-  text-align: center;
-  margin-top: 80px;
-  text-decoration: none;
-  font-size: 22px;
-  font-weight: bold;
-  transform: translate(-15%, -15%);
+ color: #fff;
+ font-family: "Roboto", "sans-serif";
+ position: absolute;
+ top: 70%;
+ left: 40%;
+ text-align: center;
+ margin-top: 80px;
+ text-decoration: none;
+ font-size: 22px;
+ font-weight: bold;
+ transform: translate(-15%, -15%);
 }
 
 section .projects-content .projects .container .overlay .text a:hover {
-  color: #ffbf21;
+ color: #ffbf21;
 }
 
 section .projects-content .projects .container .overlay-left {
-  height: 100%;
-  width: 0;
-  top: 0;
-  left: 0;
-  background-color: #001d4a;
+ height: 100%;
+ width: 0;
+ top: 0;
+ left: 0;
+ background-color: #001d4a;
 }
 
 section .projects-content .projects .container:hover .overlay-left {
-  width: 100%;
+ width: 100%;
 }
 
 @keyframes html {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
-  }
+ 0% {
+  width: 0%;
+ }
+ 100% {
+  width: 95%;
+ }
 }
 
 @keyframes css {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
+ 0% {
+  width: 0%;
+ }
+ 100% {
+  width: 90%;
+ }
 }
 
 @keyframes javascript {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 85%;
-  }
+ 0% {
+  width: 0%;
+ }
+ 100% {
+  width: 85%;
+ }
 }
 
 @keyframes react {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 70%;
-  }
+ 0% {
+  width: 0%;
+ }
+ 100% {
+  width: 70%;
+ }
 }
 
 @keyframes python {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 80%;
-  }
+ 0% {
+  width: 0%;
+ }
+ 100% {
+  width: 80%;
+ }
 }
 
 @media (max-width: 700px) {
-  body {
-    height: inherit;
-    overflow: inherit;
-  }
+ body {
+  height: inherit;
+  overflow: inherit;
+ }
 
-  header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    height: 90px;
-  }
+ header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 90px;
+ }
 
-  header h1 {
-    float: left;
-  }
+ header h1 {
+  float: left;
+ }
 
-  header .open-nav {
-    display: block;
-    margin-left: 40px;
-    margin-top: 5px;
-    padding-left: 20px;
-    padding-top: 5px;
-  }
+ header .open-nav {
+  display: block;
+  margin-left: 40px;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-top: 5px;
+ }
 
-  nav {
-    height: 480px;
-    width: 140px;
-    opacity: 0.9;
-    position: absolute;
-    z-index: 1;
-    display: none;
-  }
+ nav {
+  height: 480px;
+  width: 140px;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 1;
+  display: none;
+ }
 
-  section .home-content {
-    width: 100%;
-    height: inherit;
-  }
+ section .home-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .home-content p {
-    margin: 35px 25px;
-    line-height: 1.3;
-  }
+ section .home-content p {
+  margin: 35px 25px;
+  line-height: 1.6;
+ }
 
-  .home-buttons {
-    margin-top: 50px;
-    margin-left: 10px;
-    padding-bottom: 300px;
-  }
+ .home-buttons {
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-bottom: 300px;
+ }
 
-  /*About*/
-  section .about-content {
-    width: 100%;
-    height: inherit;
-  }
+ /*About*/
+ section .about-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .about-content p {
-    margin-top: 30px;
-    margin-right: 25px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-  }
+ section .about-content p {
+  margin-top: 30px;
+  margin-right: 25px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+ }
 
-  section .about-div {
-    grid-template-columns: 1fr;
-  }
+ section .about-div {
+  grid-template-columns: 1fr;
+ }
 
-  section .about-div .skills {
-    margin-right: 20px;
-  }
-  section .about-buttons {
-    margin-left: 50px;
-    margin-top: 300px;
-  }
+ section .about-div .skills {
+  margin-right: 20px;
+ }
+ section .about-buttons {
+  margin-left: 50px;
+  margin-top: 300px;
+ }
 
-  /*Contact*/
-  section .contact-content {
-    width: 100%;
-    height: inherit;
-  }
+ /*Contact*/
+ section .contact-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .contact-grid {
-    grid-template-columns: 1fr;
-  }
+ section .contact-grid {
+  grid-template-columns: 1fr;
+ }
 
-  section .contact-content form {
-    width: 100%;
-    margin-left: 1px;
-    margin-right: 5px;
-  }
-  form .slide #range {
-    width: 350px;
-  }
+ section .contact-content form {
+  width: 100%;
+  margin-left: 1px;
+  margin-right: 5px;
+ }
+ form .slide #range {
+  width: 350px;
+ }
 
-  section .contact-content .select-option {
-    display: none;
-  }
+ section .contact-content .select-option {
+  display: none;
+ }
 
-  form .slide {
-    display: none;
-  }
+ form .slide {
+  display: none;
+ }
 
-  form .form-btn {
-    margin-top: 70px;
-    margin-left: 120px;
-    color: #ffbf21;
-  }
+ form .form-btn {
+  margin-top: 70px;
+  margin-left: 120px;
+  color: #ffbf21;
+ }
 
-  section .contact-grid i {
-    display: none;
-  }
+ section .contact-grid i {
+  display: none;
+ }
 
-  section .projects-content {
-    width: 100%;
-    height: inherit;
-  }
+ section .projects-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .projects-content .projects {
-    grid-template-columns: 1fr;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+ section .projects-content .projects {
+  grid-template-columns: 1fr;
+  margin-left: 5px;
+  margin-right: 5px;
+ }
 
-  section .projects-content .projects .container {
-    width: 100%;
-  }
+ section .projects-content .projects .container {
+  width: 100%;
+ }
 }
 
 @media (max-width: 320px) {
-  body {
-    height: inherit;
-    overflow: inherit;
-  }
+ body {
+  height: inherit;
+  overflow: inherit;
+ }
 
-  header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    height: 90px;
-  }
+ header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 90px;
+ }
 
-  header h1 {
-    float: left;
-    font-size: 22px;
-  }
+ header h1 {
+  float: left;
+  font-size: 22px;
+ }
 
-  header .open-nav {
-    display: block;
-    margin-left: 40px;
-    margin-top: 5px;
-    padding-left: 20px;
-    padding-top: 5px;
-  }
+ header .open-nav {
+  display: block;
+  margin-left: 40px;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-top: 5px;
+ }
 
-  nav {
-    height: 480px;
-    width: 140px;
-    opacity: 0.9;
-    position: absolute;
-    z-index: 1;
-    display: none;
-  }
+ nav {
+  height: 480px;
+  width: 140px;
+  opacity: 0.9;
+  position: absolute;
+  z-index: 1;
+  display: none;
+ }
 
-  section .home-content {
-    width: 100%;
-    height: inherit;
-  }
+ section .home-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .home-content p {
-    margin: 35px 25px;
-    line-height: 1.3;
-  }
+ section .home-content p {
+  margin: 35px 25px;
+  line-height: 1.3;
+ }
 
-  .home-buttons {
-    margin-top: 50px;
-    margin-left: 10px;
-    padding-bottom: 300px;
-  }
+ .home-buttons {
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-bottom: 300px;
+ }
 
-  /*About*/
-  section .about-content {
-    width: 100%;
-    height: inherit;
-  }
+ /*About*/
+ section .about-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .about-content p {
-    margin-top: 30px;
-    margin-right: 25px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-  }
+ section .about-content p {
+  margin-top: 30px;
+  margin-right: 25px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+ }
 
-  section .about-div {
-    grid-template-columns: 1fr;
-  }
+ section .about-div {
+  grid-template-columns: 1fr;
+ }
 
-  section .about-div .skills {
-    margin-right: 20px;
-  }
-  section .about-buttons {
-    margin-left: 50px;
-    margin-top: 300px;
-  }
+ section .about-div .skills {
+  margin-right: 20px;
+ }
+ section .about-buttons {
+  margin-left: 50px;
+  margin-top: 300px;
+ }
 
-  /*Contact*/
-  section .contact-content {
-    width: 100%;
-    height: inherit;
-  }
+ /*Contact*/
+ section .contact-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .contact-grid {
-    grid-template-columns: 1fr;
-  }
+ section .contact-grid {
+  grid-template-columns: 1fr;
+ }
 
-  section .contact-content form {
-    width: 100%;
-    margin-left: 1px;
-    margin-right: 5px;
-  }
-  form .slide #range {
-    width: 350px;
-  }
+ section .contact-content form {
+  width: 100%;
+  margin-left: 1px;
+  margin-right: 5px;
+ }
+ form .slide #range {
+  width: 350px;
+ }
 
-  section .contact-content .select-option {
-    display: none;
-  }
+ section .contact-content .select-option {
+  display: none;
+ }
 
-  form .slide {
-    display: none;
-  }
+ form .slide {
+  display: none;
+ }
 
-  form .form-btn {
-    margin-top: 70px;
-    margin-left: 120px;
-    color: #ffbf21;
-  }
+ form .form-btn {
+  margin-top: 70px;
+  margin-left: 120px;
+  color: #ffbf21;
+ }
 
-  section .contact-grid i {
-    display: none;
-  }
+ section .contact-grid i {
+  display: none;
+ }
 
-  section .projects-content {
-    width: 100%;
-    height: inherit;
-  }
+ section .projects-content {
+  width: 100%;
+  height: inherit;
+ }
 
-  section .projects-content .projects {
-    grid-template-columns: 1fr;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+ section .projects-content .projects {
+  grid-template-columns: 1fr;
+  margin-left: 5px;
+  margin-right: 5px;
+ }
 
-  section .projects-content .projects .container {
-    width: 100%;
-  }
+ section .projects-content .projects .container {
+  width: 100%;
+ }
 }
