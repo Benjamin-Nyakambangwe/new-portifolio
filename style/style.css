@@ -38,6 +38,12 @@ header h1 small {
  text-align: center;
 }
 
+header img {
+  float: right;
+  height: 15vh;
+  margin-right: 15px;
+}
+
 nav {
  float: left;
  width: 10%;
@@ -69,16 +75,21 @@ nav li a {
  font-size: 18px;
 }
 
+nav li a.current {
+  background : #27476e;
+  border-bottom : 3px solid #ffbf21;
+}
+
 .social {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-gap: 4px;
- margin: 100px 5px 25px 5px;
+ margin: 140px 5px 25px 0px;
 }
 
 .contact-social {
  display: grid;
- grid-template-columns: repeat(5, 1fr);
+ grid-template-columns: repeat(4, 1fr);
  grid-gap: 4px;
  margin: 150px 5px 25px 5px;
 }
@@ -104,27 +115,34 @@ nav li a {
 }
 
 .fa-facebook {
- background: #3b5998;
+ border-radius: 50px;
  color: #eaf8bf;
  border: 2px solid #ffbf21;
 }
 
 .fa-twitter {
- background: #55acee;
+ border-radius: 50px;
  color: #eaf8bf;
  border: 2px solid #ffbf21;
 }
 .fa-linkedin {
- background: #0e76a8;
+ border-radius: 50px;
  color: #eaf8bf;
  border: 2px solid #ffbf21;
 }
 
 .fa-github {
- background: #000;
+ border-radius: 50px;
  color: #eaf8bf;
  border: 2px solid #ffbf21;
 }
+
+.fa-instagram {
+ border-radius: 50px;
+ color: #eaf8bf;
+ border: 2px solid #ffbf21;
+}
+
 
 nav p a:hover {
  border-bottom: 3px solid #ffbf21;
@@ -769,6 +787,25 @@ section .projects-content .projects .container:hover .overlay-left {
  }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 700px) {
  body {
   height: inherit;
@@ -785,9 +822,15 @@ section .projects-content .projects .container:hover .overlay-left {
   float: left;
  }
 
+ header img {
+  float: left;
+  width: 285px;
+  margin-top: -15px;
+ }
+
  header .open-nav {
   display: block;
-  margin-left: 40px;
+  margin-left: 5px;
   margin-top: 5px;
   padding-left: 20px;
   padding-top: 5px;

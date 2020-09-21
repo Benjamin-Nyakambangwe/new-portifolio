@@ -1,3 +1,5 @@
+// alert("The current path is " + window.location.pathname);
+
 const homeLink = document.getElementById('home-link');
 const projectsLink = document.getElementById('projects-link');
 const aboutLink = document.getElementById('about-link');
@@ -112,6 +114,20 @@ function changeFormBtnIcon() {
 
 function restoreFormBtnIcon() {
   formBtnIcon.style.color = '#eaf8bf';
+}
+
+
+//Add Current Page Style to link
+const path = window.location.pathname;
+
+if (path === 'https://bennyakaz.netlify.app/index.html') {
+  homeLinkHover();
+} else if (path === 'https://bennyakaz.netlify.app/about.html'){
+  aboutLinkHover();
+} else if (path === 'https://bennyakaz.netlify.app/contact.html'){
+  contactLinkHover();
+} else if (path === 'https://bennyakaz.netlify.app/projects.html'){
+  projectsLinkHover();
 }
 
 //Open Nav on mobile
