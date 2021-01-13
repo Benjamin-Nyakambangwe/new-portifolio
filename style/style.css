@@ -327,6 +327,11 @@ section .about-div .skills .python {
  animation: python 2s;
 }
 
+section .about-div .skills .wordpress {
+ width: 90%;
+ animation: wordpress 2s;
+}
+
 section .about-content .btn {
  text-decoration: none;
  font-size: 20px;
@@ -784,6 +789,15 @@ section .projects-content .projects .container:hover .overlay-left {
  }
  100% {
   width: 80%;
+ }
+}
+
+@keyframes wordpress {
+ 0% {
+  width: 0%;
+ }
+ 100% {
+  width: 90%;
  }
 }
 
